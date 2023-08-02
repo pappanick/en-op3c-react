@@ -122,7 +122,7 @@
         "img": "/assets/images/PerformanceTable.png"
       },
       {
-        "title": "HUNPCA applicable sensors:",
+        "title": "Main Features:",
         "description": "1. Achieves high compression ratios without significant information losses (estimated data volume reduction from 12 to 22 times)",
         "description2": "2. Provides both near-lossless or lossy compression modes upon configuration",
         "description3": "3. Performs de-noising of the hyper-spectral image bands",
@@ -134,7 +134,7 @@
     ]
   },
   "sensors": {
-    "title": " ",
+    "title": "HUNPCA applicable sensors",
     "subtitle": "HUNPCA applicable sensors:",
     "description": "",
     "items": [
