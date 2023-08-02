@@ -3,42 +3,90 @@
     "name": "Planetek",
     "logo": "/assets/images/pkH_logo.png"
   },
+  "OP3CLogo": {
+    "name": "OP3C algorithm",
+    "img": "/assets/images/OP3C.png"
+  },
   "funding": {
     "name": "ESPA",
+    "text": "Χρηματοδότηση από την Ευρωπαϊκή Ένωση, Ευρωπαϊκό Ταμείο Περιφερειακής Ανάπτυξης, ΕΠΑνΕΚ 2014-2020, Επιχειρησιακό Πρόγραμμα Ανταγωνιστικότητα, Καινοτομία Επιχειρηματικότητας, Γενική Γραμματεία Έρευνας και Καινοτομίας, ΕΣΠΑ 2014-2020, ανάπτυξη – εργασία – αλληλεγγύη.",
     "fundingLabel": "/assets/images/ΕΣΠΑ.png"
   },
   "navigation": [
     {
-      "name": "Algorithm",
-      "href": "Algorithm"
+      "name": "Αλγόριθμος",
+      "href": "product"
     },
     {
-      "name": "Features",
+      "name": "Χαρακτηριστικά",
       "href": "features"
     },
     {
-      "name": "About",
+      "name": "Περί",
       "href": "about"
     }
   ],
   "callToAction": {
-    "text": "Read more",
+    "text": "Διάβασε περισσότερα",
     "href": "#"
+  },
+  "sendToLocalhost": {
+    "text": "",
+    "href": "http://localhost:3000/"
   },
   "heroTitleLite": {
     "title": "Space OP3C",
-    "subtitle": "JFPGA or SW solution for on-board hi-performance hyperspectral data compression and cloud classification",
-    "description": "JFPGA or SW solution for on-board hi-performance hyperspectral data compression and cloud classification",
+    "subtitle": "JFPGA or SW solution for on-board hi-performance hyperspectral data compression and cloud classification.",
+    "description": "JFPGA or SW solution for on-board hi-performance hyperspectral data compression and cloud classification.",
     "img": "/assets/images/OP3C.png"
   },
   "mainHero": {
     "title": "Space OP3C",
     "subtitle": ":a compression algorithm used in space",
-    "description": "JFPGA or SW solution for on-board hi-performance hyperspectral data compression and cloud classification",
+    "description": "JFPGA or SW solution for on-board hi-performance hyperspectral data compression and cloud classification.",
     "img": "/assets/images/OP3C.png",
     "primaryAction": {
-      "text": "/News",
+      "text": "/Νέα",
       "href": "/News"
+    },
+    "secondaryAction": {
+      "text": "About Funding",
+      "href": "#about"
+    }
+  },
+  "Lang": {
+    "title": "Language",
+    "description": "the language of the website",
+    "img": "/assets/images/lang.svg",
+    "primaryAction": {
+      "text": "/Lang",
+      "href": "/Lang"
+    },
+    "secondaryAction": {
+      "text": "About Funding",
+      "href": "#about"
+    }
+  },
+  "EngLang": {
+    "title": "English Language",
+    "description": "the language of the website",
+    "img": "/assets/images/eng.svg",
+    "primaryAction": {
+      "text": "/Lang",
+      "href": "/Lang"
+    },
+    "secondaryAction": {
+      "text": "About Funding",
+      "href": "#about"
+    }
+  },
+  "GreekLang": {
+    "title": "Greek Language",
+    "description": "the language of the website",
+    "img": "/assets/images/greek.svg",
+    "primaryAction": {
+      "text": "/Lang",
+      "href": "/Lang"
     },
     "secondaryAction": {
       "text": "About Funding",
@@ -50,7 +98,7 @@
     "items": [
       {
         "title": "SPOC-3127",
-        "description": "OP3C will fly on-board the SPOC-3127 mission.",
+        "description": "Το OP3C θα πετάξει επί της αποστολής SPOC-3127.",
         "href": "https://www.planetek.gr/news_events/news_archive/2023/06/esa_planetek_hellas_sign_eu1_million_contract_for_greek_secure_connectivity_and_eo_cubesat",
         "img": "/assets/images/cubesat_-_esa_-_Planetek_Hellas-768x480.jpg"
       }
@@ -58,109 +106,109 @@
   },
   "product": {
     "title": "Space OP3C",
-    "description": "JFPGA or SW solution for on-board hi-performance hyperspectral data compression and cloud classification",
+    "description": "Λύση JFPGA ή λογισμικού για υψηλής απόδοσης συμπίεση υπερφασματικών δεδομένων και ταξινόμηση νεφών επί του σκάφους.",
     "items": [
       {
-        "title": "On-board Processing for Compression and Clouds Classification",
-        "description": "OP3C compression technique achieves high compression ratios, low data distortion,still keeping a limited computation complexity suitable to the on-board constraints. OP3C compressed data can be further processed in their compressed form. This is a typical characteristic of the class of techniques known as compressed sensing. The OP3C compression methodology is named HUNPCA (Hybrid Un-mixing Principal Component Analysis) and is based on a spectral un-mixing procedure and PCA combined with a coding algorithm. The international patent was granted to Planetek Hellas (EP3347852)",
+        "title": "Λύση JFPGA ή SW για συμπίεση υπερφασματικών δεδομένων υψηλής απόδοσης και ταξινόμηση νεφών",
+        "description": "Η τεχνική συμπίεσης OP3C επιτυγχάνει υψηλούς λόγους συμπίεσης, χαμηλή παραμόρφωση δεδομένων, διατηρώντας ωστόσο μια περιορισμένη υπολογιστική πολυπλοκότητα κατάλληλη για τους ενσωματωμένους περιορισμούς. Τα συμπιεσμένα δεδομένα OP3C μπορούν να υποβληθούν σε περαιτέρω επεξεργασία στη συμπιεσμένη τους μορφή. Αυτό είναι ένα τυπικό χαρακτηριστικό της κατηγορίας τεχνικών που είναι γνωστές ως συμπιεσμένη αίσθηση. Η μεθοδολογία συμπίεσης OP3C ονομάζεται HUNPCA (Hybrid Un-mixing Principal Component Analysis) και βασίζεται σε μια διαδικασία φασματικής μη ανάμιξης και PCA σε συνδυασμό με έναν αλγόριθμο κωδικοποίησης. Το διεθνές δίπλωμα ευρεσιτεχνίας χορηγήθηκε στην Planetek Hellas (EP3347852)",
         "img": "/assets/images/Comparison.png"
       },
       {
-        "title": "Capabilities",
-        "description": "OP3C can consider the cloud coverage, both at pixel level and as overall coverage percentage, in order to dynamically adapt compression to image content.",
+        "title": "Δυνατότητες",
+        "description": "Το OP3C μπορεί να εξετάσει την κάλυψη νέφων, τόσο σε επίπεδο pixel όσο και ως ποσοστό συνολικής κάλυψης, προκειμένου να προσαρμόσει δυναμικά τη συμπίεση στο περιεχόμενο εικόνας.",
         "img": "/assets/images/CompressionRatioGraph.png"
       },
       {
-        "title": "Deployments",
-        "description": "The performances of the OP3C compressor have been demonstrated on two different sensors: AVIRIS (airborne) and Hyperion (spaceborne) on the standard dataset (Aaron et al. 2009) adopted by NASA and CCSDS for hyper-spectral compressor benchmarking"
+        "title": "Αναπτύξεις",
+        "description": "Οι επιδόσεις του συμπιεστή OP3C έχουν αποδειχθεί σε δύο διαφορετικούς αισθητήρες: AVIRIS (αερομεταφερόμενος) και Hyperion (διαστημικός) στο τυπικό σύνολο δεδομένων (Aaron et al. 2009) που υιοθετήθηκε από τη NASA και το CCSDS για τη συγκριτική αξιολόγηση υπερφασματικού συμπιεστή"
       },
       {
-        "title": "Performance",
-        "description": "The HUNPCA compression algorithm has been evaluated in terms of data loss according to the similarity metric Spectral Angle Difference (SAD) and the Root Mean Square Error (RMSE). Its performance is compared with the CCSDS 121.0, 122.0 and 123.0 compressors.",
+        "title": "Επίδοση",
+        "description": "Ο αλγόριθμος συμπίεσης HUNPCA έχει αξιολογηθεί ως προς την απώλεια δεδομένων σύμφωνα με τη μετρική ομοιότητας Διαφορά Φασματικής Γωνίας (SAD) και το Ριζικό Μέσο Τετράγωνο Σφάλμα (RMSE). Η απόδοσή του συγκρίνεται με τους συμπιεστές CCSDS 121.0, 122.0 και 123.0.",
         "img": "/assets/images/PerformanceTable.png"
       },
       {
-        "title": "HUNPCA applicable sensors:",
-        "description": "1. Achieves high compression ratios without significant information losses (estimated data volume reduction from 12 to 22 times)",
-        "description2": "2. Provides both near-lossless or lossy compression modes upon configuration",
-        "description3": "3. Performs de-noising of the hyper-spectral image bands",
-        "description4": "4. Adapts to sensor's characteristics: the greater the spectral resolution, the higher the compression ratio.",
-        "description5": "5. Detects clouds and adapts compression. By applying the compression algorithm only to the land/sea pixels, the algorithm achieves higher variance description with the same threshold. This feature allows the algorithm to achieve higher compression ratios with better information modeling.",
-        "description6": "6. The algorithm allows data processing in their compressed form, i.e. other processes / workflows can be applied without decompressing the image (e.g. useful for on board classification)",
+        "title": "Εφαρμόσιμοι αισθητήρες HUNPCA:",
+        "description1": "1. Επιτυγχάνει υψηλούς λόγους συμπίεσης χωρίς σημαντικές απώλειες πληροφοριών (εκτιμώμενη μείωση όγκου δεδομένων από 12 σε 22 φορές)",
+        "description2": "2. Παρέχει λειτουργίες συμπίεσης σχεδόν χωρίς απώλειες ή απώλειες κατά τη διαμόρφωση",
+        "description3": "3. Εκτελεί αποθόρυβο των ζωνών υπερφασματικής εικόνας",
+        "description4": "4. Προσαρμόζεται στα χαρακτηριστικά του αισθητήρα: όσο μεγαλύτερη είναι η φασματική ανάλυση, τόσο μεγαλύτερη είναι η αναλογία συμπίεσης.",
+        "description5": "5. Ανιχνεύει σύννεφα και προσαρμόζει τη συμπίεση. Εφαρμόζοντας τον αλγόριθμο συμπίεσης μόνο στα pixel ξηράς/θάλασσας, ο αλγόριθμος επιτυγχάνει υψηλότερη περιγραφή διακύμανσης με το ίδιο όριο. Αυτή η δυνατότητα επιτρέπει στον αλγόριθμο να επιτύχει υψηλότερους λόγους συμπίεσης με καλύτερες πληροφορίες πρίπλασμα.",
+        "description6": "6. Ο αλγόριθμος επιτρέπει την επεξεργασία δεδομένων στη συμπιεσμένη τους μορφή, δηλαδή άλλες διεργασίες/ροές εργασίας μπορούν να εφαρμοστούν χωρίς αποσυμπίεση της εικόνας (π.χ. χρήσιμο για ταξινόμηση επί του σκάφους)",
         "img": "/assets/images/CompressionFigure.png"
       }
     ]
   },
   "sensors": {
     "title": " ",
-    "subtitle": "HUNPCA applicable sensors:",
+    "subtitle": "Εφαρμόσιμοι αισθητήρες HUNPCA:",
     "description": "",
     "items": [
       {
-        "name": "Hyperspectral",
-        "description": "Hyperspectral sensors",
+        "name": "Υπερφασματικός",
+        "description": "Υπερφασματικοί αισθητήρες",
         "icon": "/assets/images/react.png"
       },
       {
-        "name": "Spectrometers",
-        "description": "Imaging spectrometers",
+        "name": "Φασματόμετρα",
+        "description": "Φασματόμετρα απεικόνισης",
         "icon": "/assets/images/tailwindcss.svg"
       },
       {
-        "name": "Infrared",
-        "description": "Sounding (infrared) imaging sensors",
+        "name": "Υπέρυθρες",
+        "description": "Αισθητήρες απεικόνισης ήχου (υπέρυθρου)",
         "icon": "/assets/images/nextjs.svg"
       },
       {
-        "name": "Adaptation",
-        "description": "adapts to sensors characteristics: the greater the spectral resolution, the higher the compression ratio.",
+        "name": "Προσαρμοστικότητα",
+        "description": "Προσαρμόζεται στα χαρακτηριστικά των αισθητήρων: όσο μεγαλύτερη είναι η φασματική ανάλυση, τόσο μεγαλύτερη είναι η αναλογία συμπίεσης.",
         "icon": "/assets/images/ts.png"
       },
       {
-        "name": "Detection",
-        "description": "detects clouds and adapts compression. By applying the compression algorithm only to the land/sea pixels, the algorithm achieves higher variance description with the same threshold. This feature allows the algorithm to achieve higher compression ratios with better information modeling.",
+        "name": "Ανίχνευση",
+        "description": "Ανιχνεύει σύννεφα και προσαρμόζει τη συμπίεση. Εφαρμόζοντας τον αλγόριθμο συμπίεσης μόνο στα εικονοστοιχεία ξηράς/θάλασσας, ο αλγόριθμος επιτυγχάνει υψηλότερη περιγραφή διακύμανσης με το ίδιο όριο. Αυτή η δυνατότητα επιτρέπει στον αλγόριθμο να επιτυγχάνει υψηλότερους λόγους συμπίεσης με καλύτερη μοντελοποίηση πληροφοριών.",
         "icon": "/assets/images/nextjs.svg"
       },
       {
-        "name": "Thermal",
-        "description": "Thermal hyperspectral imagers",
+        "name": "Θερμικός",
+        "description": "Θερμικές υπερφασματικές εικόνες",
         "icon": "/assets/images/ts.png"
       }
     ]
   },
   "features": {
-    "title": " ",
-    "subtitle": "Main Features",
+    "title": "Features",
+    "subtitle": "Κύρια Χαρακτηριστικά",
     "description": "",
     "items": [
       {
-        "name": "Hyperspectral",
-        "description": "Hyperspectral sensors",
+        "name": "Υπερφασματικός",
+        "description": "Υπερφασματικοί αισθητήρες",
         "icon": "/assets/images/react.png"
       },
       {
-        "name": "Spectrometers",
-        "description": "Imaging spectrometers",
+        "name": "Φασματόμετρα",
+        "description": "Φασματόμετρα απεικόνισης",
         "icon": "/assets/images/tailwindcss.svg"
       },
       {
-        "name": "Infrared",
-        "description": "Sounding (infrared) imaging sensors",
+        "name": "Υπέρυθρες",
+        "description": "Αισθητήρες απεικόνισης ήχου (υπέρυθρου)",
         "icon": "/assets/images/nextjs.svg"
       },
       {
-        "name": "Adaptation",
-        "description": "adapts to sensors characteristics: the greater the spectral resolution, the higher the compression ratio.",
+        "name": "Προσαρμοστικότητα",
+        "description": "Προσαρμόζεται στα χαρακτηριστικά των αισθητήρων: όσο μεγαλύτερη είναι η φασματική ανάλυση, τόσο μεγαλύτερη είναι η αναλογία συμπίεσης.",
         "icon": "/assets/images/ts.png"
       },
       {
-        "name": "Detection",
-        "description": "detects clouds and adapts compression. By applying the compression algorithm only to the land/sea pixels, the algorithm achieves higher variance description with the same threshold. This feature allows the algorithm to achieve higher compression ratios with better information modeling.",
+        "name": "Ανίχνευση",
+        "description": "Ανιχνεύει σύννεφα και προσαρμόζει τη συμπίεση. Εφαρμόζοντας τον αλγόριθμο συμπίεσης μόνο στα εικονοστοιχεία ξηράς/θάλασσας, ο αλγόριθμος επιτυγχάνει υψηλότερη περιγραφή διακύμανσης με το ίδιο όριο. Αυτή η δυνατότητα επιτρέπει στον αλγόριθμο να επιτυγχάνει υψηλότερους λόγους συμπίεσης με καλύτερη μοντελοποίηση πληροφοριών.",
         "icon": "/assets/images/nextjs.svg"
       },
       {
-        "name": "Thermal",
-        "description": "Thermal hyperspectral imagers",
+        "name": "Θερμικός",
+        "description": "Θερμικές υπερφασματικές εικόνες",
         "icon": "/assets/images/ts.png"
       }
     ]

@@ -6,7 +6,7 @@
 :root {
   --color-primary: #0055b2;
   --color-secondary: #0090c3;
-  --color-tertiaty: #99a0a3;
+  --color-tertiary: #00C394;
 }
 
 a { 
@@ -18,9 +18,12 @@ a:hover {
 }
 
 .text-primary {
---color-primary: #0090c3;
+--color-primary: #0055b2;
 }
 
+.text-tertiary {
+--color-tertiary: #00C394;
+}
 .content p {
   @apply my-6;
 }

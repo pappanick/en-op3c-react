@@ -6,6 +6,8 @@ import { Link } from 'react-scroll';
 
 import config from '../config/index.json';
 import HeaderLogo from './HeaderLogo';
+import LangImageEng from './LangImageEng';
+import LangImageGreek from './LangImageGreek';
 
 const Menu = () => {
   const { navigation, company, callToAction } = config;
@@ -44,6 +46,16 @@ const Menu = () => {
                     <MenuIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
                 </div>
+                <a href="/">
+                  <span
+                    className={`font-medium text-tertiary hover:text-secondary`}
+                  >
+                    Home
+                  </span>
+                </a>
+                {/* <a href="/">
+                  <span className="sr-only">Home</span>
+                </a> */}
               </div>
             </div>
             <div
@@ -63,12 +75,24 @@ const Menu = () => {
                 </Link>
               ))}
               <a
+                href="assets/pks010-96-1.0_OP3C_Brochure_PkH.pdf"
+                className={`font-medium text-tertiary hover:text-secondary`}
+              >
+                Brochure
+              </a>
+              <a
                 href="News"
                 className={`font-medium text-primary hover:text-secondary`}
               >
                 News
               </a>
             </div>
+            <>
+              <LangImageGreek />
+            </>
+            <>
+              <LangImageEng />
+            </>
           </nav>
         </div>
 

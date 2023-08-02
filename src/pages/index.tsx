@@ -13,6 +13,7 @@ import Product from '../components/Product';
 // import Greek from '../config/indexGreek.json';
 // import English from '../config/index.json";
 // const locale = navigator.language;
+import '../components/i18next.d';
 
 // let lang;
 // if (locale==="en") {
