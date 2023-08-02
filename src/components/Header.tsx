@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import React, { Fragment } from 'react';
 
 import { Popover, Transition } from '@headlessui/react';
