@@ -27,7 +27,8 @@ const LangImage = () => {
                 role="presentation"
                 className="flex items-center justify-right w-full md:w-auto mb-14"
               >
-                <a href="https://op3c.planetek.net/">
+                <a href="https://op3c-react.netlify.app/">
+                  {/* <a href="https://op3c.planetek.net/"> */}
                   <span className="sr-only">{title}</span>
                   <img
                     alt="logo"
