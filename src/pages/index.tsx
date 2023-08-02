@@ -6,7 +6,6 @@ import Header from '../components/Header';
 // import LazyShow from '../components/LazyShow';
 // import MainHeroImage from '../components/MainHeroImage';
 // import MainHeroImage from '../components/MainHeroImage';
-// import HeroTitleLite from '../components/HeroTitleLite';
 // import NestedLayout from '../components/nested-layout';
 import Product from '../components/Product';
 // import {IntlProvider} from 'react-intl';

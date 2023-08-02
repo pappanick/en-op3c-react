@@ -34,12 +34,6 @@
     "text": "",
     "href": "http://localhost:3000/"
   },
-  "heroTitleLite": {
-    "title": "Space OP3C",
-    "subtitle": "JFPGA or SW solution for on-board hi-performance hyperspectral data compression and cloud classification.",
-    "description": "JFPGA or SW solution for on-board hi-performance hyperspectral data compression and cloud classification.",
-    "img": "/assets/images/OP3C.png"
-  },
   "mainHero": {
     "title": "Space OP3C",
     "subtitle": ":a compression algorithm used in space",
