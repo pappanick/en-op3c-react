@@ -89,10 +89,10 @@ const Menu = () => {
               </a>
             </div>
             <>
-              <LangImageGreek />
+              <LangImageEng />
             </>
             <>
-              <LangImageEng />
+              <LangImageGreek />
             </>
           </nav>
         </div>
