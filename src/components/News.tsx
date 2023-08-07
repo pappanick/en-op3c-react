@@ -1,6 +1,7 @@
 import React from 'react';
 
 // import config from 'next/dist/server/config';
+
 import config from '../config/index.json';
 
 const news = () => {
@@ -13,14 +14,12 @@ const news = () => {
       id="product"
     >
       <div role="document" className={`container max-w-5xl mx-auto m-8`}>
-        {/* <div role="document" className={`w-5/6 sm:w-5/6 p-6 ml-20`}> */}
-        {/* <div
-        role="document"
-        className={`className="flex flex-col items-center justify-center"`}
-      > */}
+        <h3 className={`text-3xl text-black leading-none mb-3`}>
+          {firstItem?.description}
+        </h3>
         <div className={`flex flex-wrap`}>
           {/* Image */}
-          <div className={`w-full sm:w-full p-1 ml-24`}>
+          <div className={`w-full sm:w-full p-1`}>
             <img
               className="h-6/6"
               src={firstItem?.img}
@@ -28,9 +27,6 @@ const news = () => {
             />
           </div>
           <div className={`w-full sm:w-full p-6 ml-24`}>
-            <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-              {firstItem?.description}
-            </div>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
                 <a
