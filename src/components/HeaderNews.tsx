@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
+
 import React from 'react';
 
 import { Popover } from '@headlessui/react';
@@ -10,31 +11,25 @@ const Menu = () => {
     <>
       <>
         <Popover>
-          {/* <div role="alert" className="relative pt-6 px-4 sm:px-6 lg:px-8">
-      <CompanyLogo />
-    </div> */}
           <div role="alert" className="relative pt-6 px-4 sm:px-6 lg:px-8">
-            <HeaderLogo />
+            <nav
+              className="relative flex items-center justify-between sm:h-10 lg:justify-start"
+              aria-label="Global"
+            >
+              <HeaderLogo />
+              <div role="alert" className="relative pt-6 px-4 sm:px-6 lg:px-8">
+                <a href="/">
+                  <span
+                    className={`font-medium text-tertiary hover:text-secondary `}
+                  >
+                    Home
+                  </span>
+                </a>
+              </div>
+            </nav>
           </div>
         </Popover>
-        {/* <>
-      <div role="alert" className="relative pt-6 px-4 sm:px-6 lg:px-8">
-        <HeaderLogo />
-      </div>
-    </>
-    <>
-      <div role="alert" className="relative pt-6 px-4 sm:px-6 lg:px-8">
-        <CompanyLogo />
-      </div>
-    </> */}
       </>
-      <a href="/">
-        <span
-          className={`relative pt-6 px-4 sm:px-6 lg:px-8 font-medium text-tertiary hover:text-secondary`}
-        >
-          Home
-        </span>
-      </a>
     </>
   );
 };
