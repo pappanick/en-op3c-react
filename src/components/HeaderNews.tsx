@@ -29,7 +29,9 @@ const Menu = () => {
     </> */}
       </>
       <a href="/">
-        <span className={`font-medium text-tertiary hover:text-secondary`}>
+        <span
+          className={`relative pt-6 px-4 sm:px-6 lg:px-8 font-medium text-tertiary hover:text-secondary`}
+        >
           Home
         </span>
       </a>
