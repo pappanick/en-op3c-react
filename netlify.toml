@@ -1,5 +1,3 @@
 [build]
   publish = "out"
   command = "npm run build-prod"
-  NETLIFY_NEXT_PLUGIN_SKIP=true
-  NODE_VERSION=16.20.1
