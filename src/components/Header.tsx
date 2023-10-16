@@ -76,6 +76,12 @@ const Menu = () => {
                 </Link>
               ))}
               <a
+                href="assets/op3c_poster.pdf"
+                className={`font-medium text-tertiary hover:text-secondary`}
+              >
+                Poster
+              </a>
+              <a
                 href="assets/pks010-96-1.0_OP3C_Brochure_PkH.pdf"
                 className={`font-medium text-tertiary hover:text-secondary`}
               >
